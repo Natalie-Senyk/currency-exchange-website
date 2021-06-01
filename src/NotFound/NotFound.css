@@ -1,0 +1,11 @@
+.not-found-block {
+  display: flex;
+  justify-content: center;
+}
+
+.not-found-image {
+  width: 50%;
+  height: 50%;
+  object-fit: center;
+  opacity: 0.5;
+}

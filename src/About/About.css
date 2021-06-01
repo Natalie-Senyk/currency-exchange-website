@@ -1,0 +1,38 @@
+.about-section{
+    color: #666666;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-section__item{
+    flex: 0 0 250px;
+}
+
+@media (max-width: 1170px) {
+    .about-section{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .about-section__item{
+        flex: 0 1 400px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 530px) {
+    .about-section__item_img{
+        max-width: 200px;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .about-section__item_img{
+        display: none;
+        
+
+    }
+}

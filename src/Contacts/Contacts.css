@@ -1,0 +1,29 @@
+.contacts__map {
+  border: 0;
+  text-align: center;
+}
+
+.contacts__map iframe {
+  width: 600px;
+  height: 400px;
+}
+
+.contacts__title {
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 665px) {
+    .contacts__map iframe {
+        width: 400px;
+        height: 300px;
+      }
+}
+
+@media (max-width: 466px) {
+    .contacts__map iframe {
+        width: 280px;
+        height: 200px;
+    }
+}

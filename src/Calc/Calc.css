@@ -1,0 +1,30 @@
+.calc__submit-btn {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: #4f8d1f;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  color: white;
+  transition: all ease .3s;
+}
+
+.calc__submit-btn:hover{
+    background-color: #666;
+}
+
+.calc__input-count {
+  padding: 5px;
+  background-color: blanchedalmond;
+}
+
+.calc__select {
+  padding: 5px;
+}
+
+.calc__block {
+  background: url("../images/background-image.jpg") 0 40px / cover no-repeat;
+  position: fixed;
+}
+
+.calc-result{
+    color: #5ed801;
+}
