@@ -15,7 +15,7 @@ class Header extends React.Component {
         <div className="top-bar animate-dropdown"></div>
         <div className="main-header">
           <div className="container">
-            <h1 className="site-title">Currency converter</h1>
+            <h1 className="site-title">Currency rate converter</h1>
           </div>
         </div>
         <Nav />
