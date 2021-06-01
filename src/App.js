@@ -33,7 +33,7 @@ class App extends React.Component {
             <div className="well">
               The website uses cookie to collect technical information
               <br /> We use cookies to improve user experience and offer more
-              personalization based on IP address and location.&nbsp;
+              personalization based on your IP address and location.&nbsp;
               <button className="btn btn-primary btn-sm">OK</button>
             </div>
           </div>
